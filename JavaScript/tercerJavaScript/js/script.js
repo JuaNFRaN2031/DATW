@@ -78,3 +78,16 @@ function comprobaciones() {
         alert("Incrementar en una unidad el valor del número 1 no lo hace mayor o igual que el número 2")
     }
 }
+
+let edad = 42;
+let mensaje;
+if (edad < 12) {
+    mensaje = "Eres un bb";
+} else if (edad < 19) {
+    mensaje = "Eres un adolescente";
+} else if (edad < 35) {
+    mensaje = "Todavía eres joven";
+} else {
+    mensaje = "¡¡Cuídate mucho!!";
+}
+document.getElementById("edadMensajes").innerHTML = mensaje;
