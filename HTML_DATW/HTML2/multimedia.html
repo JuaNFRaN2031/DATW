@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Multimedia</title>
+</head>
+
+<body>
+    <h1>Vídeos y audios en HTML</h1>
+    <!-- 
+        Atributos:
+            1. autoplay: auto reproduce el video cuando carga la página.
+            2. controls: añade unos controles para el video.
+            3. preload:
+                - auto -> descarga los datos para precargar lo mejor posible el video.
+                - metadata -> especifica al navegador que es necesario descargar los metadatos del vídeo
+                              para tener la información técnica adecuada: dimensiones, duración, etc...
+                - none -> indica que no hay que precargar el archivo de vídeo. Por lo tanto, el navegador no tendrá
+                          ninguna información técnica del archivo, ni dimensiones, ni duración, etc...
+            4. width y height -> es preferible hacerlo desde la fuente, pero la etiqueta video la permite.
+            5. loop -> para que el video se reproduzca en bucle.
+            6. muted -> para desactivar el sonido.
+                * Observación: Los navegadores no autoreproducen el video al menos que le indiques que es muted 
+            7. poster -> muestra una imagen antes de que cargue el video.
+    -->
+    <video src="multimedia/video/Psyko Punkz - Victorious (Official Video).mp4" width="100%" muted controls
+        poster="img/poster-video-victorious.jpg"></video>
+    <h2>Vídeo de Iframe: insertar un elemento en la página</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/n_uFzLPYDd8" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <h2>Archivos de audio</h2>
+    <audio src="multimedia/audio/Psyko Punkz - Victorious (Official Video)_D2e64eGDsgw.mp3" controls autoplay></audio>
+    <br>
+    <p>
+        <a href="index.html" title="Página Principal">Volver a la página principal</a>
+    </p>
+</body>
+
+</html>

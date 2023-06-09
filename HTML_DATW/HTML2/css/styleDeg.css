@@ -1,0 +1,46 @@
+div {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: transparent;
+    float: left;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#caja1 {
+    background-image: linear-gradient(white, yellow);
+    border: 2px solid yellow;
+}
+
+#caja2 {
+    background-image: linear-gradient(to right, rgb(129, 224, 255), rgb(119, 255, 119));
+    border: 2px solid violet;
+}
+
+#caja3 {
+    background-image: linear-gradient(to bottom right, rgb(255, 0, 255), rgb(255, 255, 0));
+    border: 2px solid rgb(107, 188, 255);
+}
+
+#caja4 {
+    background-image: linear-gradient(rgb(129, 224, 255), rgb(119, 255, 119), rgb(240, 88, 214));
+    border: 2px solid rgb(255, 0, 0);
+}
+
+#caja5 {
+    background-image: radial-gradient(rgb(255, 255, 0), rgb(255, 0, 255));
+    border-radius: 50%;
+}
+
+#caja6 {
+    background-image: linear-gradient(to right, rgb(255, 0, 255), rgb(255, 255, 0), rgb(129, 224, 255), rgb(119, 255, 119));
+    border: 2px solid rgb(255, 0, 0);
+}
+
+body {
+    background-image:repeating-radial-gradient(rgb(255, 0, 0), rgb(255, 251, 0), rgb(0, 38, 255), rgb(0, 255, 13));
+}

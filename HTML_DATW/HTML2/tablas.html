@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        table {
+            border: solid;
+        }
+
+        th,
+        td {
+            border-collapse: collapse;
+            border: solid 0.5px;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Clase para crear Tablas</h2>
+    <!-- Definir la tabla con la etiqueta <table>  </table>-->
+    <table id="tabla1" class="tabla">
+        <caption>Tabla Sencilla</caption>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>DNI</th>
+        </tr>
+        <tr>
+            <td>Anastasia</td>
+            <td>Burillo</td>
+            <td>12345678Z</td>
+        </tr>
+        <tr>
+            <td>José</td>
+            <td>García</td>
+            <td>02468105A</td>
+        </tr>
+    </table>
+    <h2>Tabla con doble encabezado (Horizontal y Vertical)</h2>
+    <table>
+        <caption>Listado de Meses y estaciones</caption>
+        <tr>
+            <th></th>
+            <th>Primavera</th>
+            <th>Verano</th>
+            <th>Otoño</th>
+            <th>Invierno</th>
+        </tr>
+        <tr>
+            <th>Primero</th>
+            <td>6544535</td>
+            <td>6541534</td>
+            <td>5646511</td>
+            <td>7897611</td>
+        </tr>
+        <tr>
+            <th>Segundo</th>
+            <td>5646424</td>
+            <td>0231365</td>
+            <td>6465514</td>
+            <td>0564312</td>
+        </tr>
+        <tr>
+            <th>Tercero</th>
+            <td>6541652</td>
+            <td>9865416</td>
+            <td>5465413</td>
+            <td>6516157</td>
+        </tr>
+    </table>
+    <table>
+        <caption>Tabla con rowspan y colspan ❤️😁❤️</caption>
+        <tr>
+            <th>Enero</th>
+            <th>Febrero</th>
+            <th>Marzo</th>
+            <th>Abril</th>
+        </tr>
+        <tr>
+            <td>6513</td>
+            <td>3513</td>
+            <td>8465</td>
+            <td>1563</td>
+        </tr>
+        <tr>
+            <td>258</td>
+            <td rowspan="2">654</td>
+            <td colspan="2">465</td>
+        </tr>
+        <tr>
+            <td>134</td>
+            <td>152</td>
+            <td>1652</td>
+        </tr>
+    </table>
+    <a href="index.html" title="Ir a la página inicial">Volver</a>
+</body>
+
+</html>

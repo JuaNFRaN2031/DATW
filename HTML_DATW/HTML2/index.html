@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" description="Juan Fran Morcillo Sanchez">
+    <meta name="keywords" content="html, programacion, desarrollo web">
+    <title>Mi Primera Web</title>
+    <link rel="shortcut icon" href="/img/favicon.jpg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1 id="elementoH1">Hola mundo esto es un titulo h1</h1>
+    <p>Pagina oficial de: <a href="https://www.volkswagen.es/es.html" target="_blank"
+            title="Volkswagen Web Official">Volkswagen</a></p>
+    <br><br>
+    <a href="tablas.html" title="Tablas HTML">Tablas</a>
+    <br><br>
+    <a href="formulario.html" title="Formularios HTML">Formularios</a>
+    <br><br>
+    <a href="formulario_prueba/formulario-prueba.html" title="Formulario de Prueba">Formulario Prueba</a>
+    <br><br>
+    <a href="multimedia.html" title="Elementos Multimedia">Elementos Multimedia</a>
+    <br><br>
+    <a href="practicasCSS.html" title="Prácticas CSS">Prácticas CSS</a>
+    <br><br>
+    <a href="textoCSS.html" title="Textos CSS">Textos CSS</a>
+    <br><br>
+    <a href="fuentesCSS.html" title="Fuentes CSS">Fuentes CSS</a>
+    <br><br>
+    <a href="masCSS.html" title="+ CSS">+ CSS</a>
+    <br><br>
+    <a href="posicionamiento1.html" title="Posicionamiento de párrafos">Posicionamineto de párrafos</a>
+    <br><br>
+    <a href="posicionamientoDeg.html" title="Posicionamiento y degradados">Posicionamineto y degradados</a>
+    <br><br>
+    <a href="listasCSS.html" title="Listas CSS">Listas CSS</a>
+    <br><br>
+    <hr style="border: 2px solid rgb(70, 98, 255);">
+    <!--Lista desordenada-->
+    <h2>Listas desordenadas</h2>
+    <ul>
+        <li>Lista desordenada 1</li>
+        <li>Lista desordenada 2</li>
+        <li>Lista desordenada 3</li>
+    </ul>
+    <ul type="square">
+        <li>Lista desordenada 1</li>
+        <li>Lista desordenada 2</li>
+        <li>Lista desordenada 3</li>
+    </ul>
+    <ul type="circle">
+        <li>Lista desordenada 1</li>
+        <li>Lista desordenada 2</li>
+        <li>Lista desordenada 3</li>
+    </ul>
+    <!--Lista ordenada-->
+    <h2>Listas ordenadas</h2>
+    <ol>
+        <li>Lista ordenada 1</li>
+        <li>Lista ordenada 2</li>
+        <li>Lista ordenada 3</li>
+    </ol>
+    <ol type="A">
+        <li>Lista ordenada 1</li>
+        <li>Lista ordenada 2</li>
+        <li>Lista ordenada 3</li>
+    </ol>
+    <ol type="I">
+        <li>Lista ordenada 1</li>
+        <li>Lista ordenada 2</li>
+        <li>Lista ordenada 3</li>
+    </ol>
+    <!--Lista de términos-->
+    <h2>Lista de términos</h2>
+    <!--Etiqueta que abre una lista de definiciones-->
+    <dl>
+        <hr style="border: 5px;">
+        <!--Término a definir-->
+        <dt>HTML</dt>
+        <!--Definición de término-->
+        <dd>Lenguaje de marca</dd>
+        <hr style="border: 5px;">
+        <dt>CSS</dt>
+        <dd>Lenguaje para dar estilos a las páginas web</dd>
+        <hr style="border: 5px;">
+        <dt>PHP</dt>
+        <dd>Lenguaje para conectar las páginas con un servidor y con base de datos</dd>
+        <hr style="border: 5px;">
+        <dt>MySQL</dt>
+        <dd>Manejador de base de datos</dd>
+        <hr style="border: 2px;">
+    </dl>
+    <h2>Desplegables</h2>
+    <details>
+        <summary>Dirección de la sucursal 1</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, recusandae repellendus! Nam quisquam dolor
+            impedit doloremque suscipit,
+            soluta ea deserunt libero, consequuntur, ex unde cum. Architecto tempora cupiditate illum mollitia!</p>
+    </details>
+    <br>
+    <!--Links importantes en las paginas web
+        1. Crear enlaces externos (A otras url, si la url es externa: https://google.es)
+        2. Puedes crear enlaces internos en el mismo protecto, por ejemplo: index.html enlazar con contactos.html
+        3. Puedo crear enlaces en la misma página. Ejemplo, del pie de página enlazar con el header
+    -->
+    <!-- Ejemplo 1. Enlaces a páginas externas -->
+    <a href="https://google.es" title="Ir a Google" target="_blank">Voy a ir a la página de Google</a>
+    <br>
+    <!-- Ejemplo 2. Crear enlaces internos -->
+    <a href="segundo.html" title="Segunda página">Ir a la segunda parte del proyecto</a>
+    <br>
+    <!-- Ejemplo 3. Crear enlaces en la misma página -->
+    <a href="#elementoH1" title="Ir al h1">Ir al inicio de la página</a>
+    <br>
+    <a href="#">Recargar la página</a>
+    <br>
+    <!-- Enlace a un archivo-->
+    <a href="etiquetas_html.pdf" target="_blank" title="Etiquetas HTML">Mostrar todas las etiquetas html</a>
+    <br>
+    <a href="word_prueba.docx" title="Word">Word</a>
+    <br>
+    <a href="img/favicon.jpg" title="Icono" target="_blank">Mostrar favicon</a>
+    <br>
+    <!-- Enlaces para enviar correos electrónicos-->
+    <a href="mailto:juanfran2002juanfran2002@hotmail.com" title="Enviar correo" target="_blank">Enviar Correo
+        Electrónico</a>
+    <br>
+    <!-- Enlazar una página a traves de una imagen-->
+    <p>
+        <a href="segundo.html" title="Ir al segundo html"><img src="img/night-and-cat.webp"></a>
+    </p>
+    <br>
+    <h2>Dirección</h2>
+    <p>Nos ubicamos en la siguiente dirección: </p>
+    <address>
+        <strong>Calle Nueva, 81</strong>
+        <strong>Tomelloso. 13700. Ciudad Real</strong>
+    </address>
+    <!--Etiqueta blockquote-->
+    <h2>Etiqueta blockquote</h2>
+    <blockquote>"Trata bien a los frikis, algún día trabajaras para algunos de ellos"</blockquote>
+</body>
+
+</html>

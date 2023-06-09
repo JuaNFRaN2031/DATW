@@ -1,0 +1,35 @@
+body {
+    background: lightcyan url(../img/night-and-cat.webp) no-repeat fixed center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+header h1 {
+    text-align: center;
+}
+
+.izquierda,
+.derecha {
+    width: 200px;
+    background-color: beige;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.izquierda {
+    float: left;
+    margin-left: 25px;
+}
+
+.derecha {
+    float: right;
+    margin-right: 25px;
+}
+
+.clear-both {
+    clear: both;
+    background-color: blanchedalmond;
+    padding: 10px;
+    width: 75%;
+    text-align: justify;
+    margin: auto;
+}

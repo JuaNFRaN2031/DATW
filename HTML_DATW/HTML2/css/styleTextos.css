@@ -1,0 +1,105 @@
+.contenedor {
+    width: 60%;
+    margin: auto;
+}
+
+.titulosP {
+    color: blueviolet;
+    background-color: lightgray;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.parrafo1 {
+    text-align: justify;
+    text-align-last: right;
+}
+
+/* Escribe de derecha a izquierda "unicode-bidi: bidi-override" */
+.loca {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+hr {
+    border: 1px dotted deeppink;
+}
+
+/* Alineación vertical */
+.img1 {
+    /* Normal */
+    vertical-align: baseline;
+    width: 15px;
+}
+
+.img2 {
+    /* Arriba del texto */
+    vertical-align: text-top;
+}
+
+.img3 {
+    /* Abajo del texto */
+    vertical-align: text-bottom;
+}
+
+.img4 {
+    vertical-align: sub;
+}
+
+.img5 {
+    vertical-align: super;
+}
+
+/* Decoración del texto "text-decoration" */
+.p1 {
+    text-decoration: overline;
+    text-decoration-color: deeppink;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 5px;
+}
+
+.p2 {
+    text-decoration: line-through;
+}
+
+.p3 {
+    text-decoration: underline deeppink wavy 2px;
+}
+
+.p4 {
+    text-decoration: overline underline;
+}
+
+/* Eliminar la decoración implicita que tiene los enlaces */
+.enlace1 {
+    text-decoration: none;
+    padding: 10px;
+    border: 2px dashed #fd56f5;
+    margin: 10px 0;
+}
+
+/* Transformación del texto */
+.t1 {
+    text-transform: uppercase;
+    text-indent: 50px;
+    text-shadow: 2px 2px cyan;
+}
+
+.t2 {
+    color: white;
+    text-transform: lowercase;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.t3 {
+    text-transform: capitalize;
+    line-height: 5;
+    text-shadow: 0 0 3px rgb(94, 255, 0);
+}
+
+.t4 {
+    font-variant: small-caps;
+    word-spacing: 30px;
+    text-shadow: 0 0 3px rgb(68, 0, 255), 0 0 5px rgb(255, 0, 34);
+}
