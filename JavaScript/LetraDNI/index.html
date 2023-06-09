@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNI</title>
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="contenedor">
+        <h1>Cálculo de la letra del DNI</h1>
+        <div id="imgDni">
+            <img src="img/dni.jpg" alt="DNI ejemplo">
+        </div>
+        <br>
+        <!-- Leer los datos de un DNI -->
+        <div class="texto-centrado">
+            <label for="dni">DNI: </label>
+            <input type="text" id="dni" placeholder="Escribe tu DNI (Sin Letra)" maxlength="8">
+            <br>
+            <br>
+            <button value="Calcular" id="calcular" onclick="calculoLetraDni()">Mostrar Letra</button>
+            <br><br>
+            <p id="sinContenido"></p>
+            <p id="letraDni"></p>
+            <p id="dni-completo"></p>
+        </div>
+        <script src="js/script.js"></script>
+    </section>
+</body>
+
+</html>
