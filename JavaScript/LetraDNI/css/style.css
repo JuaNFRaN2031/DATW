@@ -16,3 +16,8 @@ h1 {
 .texto-centrado {
     text-align: center;
 }
+
+#mensajeError {
+    color: crimson;
+    font-style: italic;
+}
