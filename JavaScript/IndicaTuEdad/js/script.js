@@ -27,6 +27,9 @@ function edad() {
     } else if (edadRecogida >= 110 && edadRecogida < 119) {
         edadMensaje = "Eres el más viejo del mundo";
         document.getElementById("edadMensaje").innerHTML = edadMensaje;
+    } else if (isNaN(edadRecogida)) {
+        edadMensaje = "Error: Ingresa un número válido para la edad.";
+        document.getElementById("edadMensaje").innerHTML = edadMensaje;
     } else {
         edadMensaje = "Eres un vampiro tio";
         document.getElementById("edadMensaje").innerHTML = edadMensaje;
