@@ -21,3 +21,11 @@ function calcFact() {
         document.getElementById("resultadoFact").innerHTML = resultado;
     }
 }
+
+function mostrarDias() {
+    let dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"];
+    for (i in dias) {
+        etiqueta = "etiqueta" + i;
+        document.getElementById(etiqueta).innerHTML = dias[i];
+    }
+}
