@@ -88,3 +88,15 @@ function calcNota() {
     console.log(notaAlumno);
     document.getElementById("notaAlumno").innerHTML = notaAlumno;
 }
+
+function cambiarColor() {
+    let colores = ["#f2f2f2", "#001100", "000000", "red", "lightgreen", "#d8d5d7"];
+    let indice = parseInt(document.getElementById("numero").value);
+    // Decrementamos el numero recogido para hacer coincidir para el array de colores
+    --indice;
+    for (let i = 0; i < colores.length; i++) {
+        if (i == indice) {
+            document.getElementById("caja").style.backgroundColor = colores[i];
+        }
+    }
+}
