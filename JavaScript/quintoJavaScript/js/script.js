@@ -96,7 +96,7 @@ function cambiarColor() {
     --indice;
     for (let i = 0; i < colores.length; i++) {
         if (i == indice) {
-            document.getElementById("caja").style.backgroundColor = colores[i];
+            document.getElementById("caja1").style.backgroundColor = colores[i];
             document.getElementById("colorH2").style.color = colores[i];
         }
     }
