@@ -90,7 +90,7 @@ function calcNota() {
 }
 
 function cambiarColor() {
-    let colores = ["#f2f2f2", "#001100", "000000", "red", "lightgreen", "#d8d5d7"];
+    let colores = ["#FFC571", "#B4FF36", "#71F0FF", "#C271FF", "lightgreen", "#FF71BD"];
     let indice = parseInt(document.getElementById("numero").value);
     // Decrementamos el numero recogido para hacer coincidir para el array de colores
     --indice;
