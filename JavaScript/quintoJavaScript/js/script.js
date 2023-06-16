@@ -45,7 +45,6 @@ function calcDay() {
 
 function calcNota() {
     let nota = parseInt(document.getElementById("nota").value);
-    console.log(nota);
     let notaAlumno;
     switch (nota) {
         case 0:
@@ -82,8 +81,10 @@ function calcNota() {
             notaAlumno = "Sobresaliente. Has sacado la mayor nota, ENHORABUENA";
             break;
         default:
-            notaAlumno = "Esa nota no existe";
+            notaAlumno = "ERROR. Esa nota no existe";
             break;
     }
-    document.getElementById("notaAulmno").innerHTML = notaAlumno;
+    console.log(nota);
+    console.log(notaAlumno);
+    document.getElementById("notaAlumno").innerHTML = notaAlumno;
 }
