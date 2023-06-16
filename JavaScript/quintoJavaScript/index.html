@@ -9,7 +9,32 @@
 
 <body>
     <h1>Quinto HTML con JavaScript</h1>
-
+    <h2>Calcular el día</h2>
+    <label for="day">Escribe el número de un día: </label>
+    <input type="number" id="day">
+    <br>
+    <br>
+    <button type="submit" onclick="calcDay()">Calcular Día</button>
+    <p>Hoy es <span id="dayNow"></span></p>
+    <br>
+    <hr>
+    <h2>Puntuación Alumnos</h2>
+    <label for="nota">Escribe la nota del alumno: </label>
+    <input type="number" id="nota">
+    <br>
+    <br>
+    <button type="submit" onclick="calcNota()">Calcular Nota</button>
+    <p>El alumno ha sacado un: <span id="notaAulmno"></span></p>
+    <br>
+    <hr>
+    <h2>Puntuación Alumnos Avanzado</h2>
+    <label for="cantidadAlumnos">¿Cuántos alumnos hay en clase?</label>
+    <input type="number" id="cantidadAlumnos" min="0" />
+    <button onclick="crearAlumnos()">Mostrar los alumnos</button>
+    <button onclick="mostrarNotas()">Notas de cada alumno</button>
+    <br><br>
+    <div id="inputsContainer"></div>
+    <div id="notasContainer"></div>
     <script src="js/script.js"></script>
 </body>
 
