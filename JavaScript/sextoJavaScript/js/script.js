@@ -14,3 +14,31 @@ while (!interruptor) {
     let prueba = console.log(nombre1);
     prueba
 }
+
+const cars = ["BMW", "Volvo", "Ford", "Volkswagen", "Maserati", "Lamborghini", "Ferrari"];
+let i = 0;
+let text = "";
+while (cars[i]) {
+    text += cars[i] + " ";
+    console.log(text);
+    i++;
+}
+
+function escribeNombre() {
+    let nombrePrueba = "";
+    while (nombrePrueba == "" || nombrePrueba == null) {
+        nombrePrueba = prompt("Escriba un nombre: ");
+        console.log("Este es un nombre de prueba con el metodo prompt y el nombre es: " + nombrePrueba);
+    }
+}
+
+function numeroPar() {
+    let numero;
+    let numeroEsPar = false;
+    while (numero % 2 != 0 || !numeroEsPar) {
+        numero = prompt("Escriba un número sino es par no saldrá del bucle: ");
+        numeroEsPar = true;
+    }
+    console.log(numero);
+    console.log("¿Tu número ya es par?: " + numeroEsPar);
+}

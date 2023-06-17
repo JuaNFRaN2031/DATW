@@ -1,3 +1,11 @@
 * {
     font-family: 'Caveat', cursive;
+    background-color: aliceblue;
+}
+
+.botones, button {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    box-shadow: 2px 2px;
 }
