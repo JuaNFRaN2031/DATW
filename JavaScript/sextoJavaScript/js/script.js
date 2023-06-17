@@ -39,7 +39,7 @@ function escribeNombre() {
 function numeroPar() {
     let numero;
     let numeroEsPar = false;
-    while (numero % 2 != 0 || !numeroEsPar || numero == null) {
+    while (numero % 2 != 0 || !numeroEsPar) {
         numero = parseInt(prompt("Escriba un número sino es par no saldrá del bucle: "));
         numeroEsPar = true;
     }
