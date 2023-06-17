@@ -40,7 +40,7 @@ function numeroPar() {
     let numero;
     let numeroEsPar = false;
     while (numero % 2 != 0 || !numeroEsPar || numero == null) {
-        numero = prompt("Escriba un número sino es par no saldrá del bucle: ");
+        numero = parseInt(prompt("Escriba un número sino es par no saldrá del bucle: "));
         numeroEsPar = true;
     }
     console.log(numero);
