@@ -1,0 +1,111 @@
+/*GENERAL*/
+* {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #302f34;
+}
+
+body {
+    width: 75%;
+    margin: auto;
+}
+
+.imagen-header {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+/*HEADER*/
+.menu {
+    display: flex;
+    background-color: #302f34;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.menu-shadow {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.815);
+}
+
+li {
+    padding: 5px;
+}
+
+li a {
+    padding: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(247, 242, 235);
+}
+
+a:hover {
+    background-color: #424242;
+    color: rgb(247, 242, 235);
+}
+
+/*CONTENIDO*/
+section {
+    margin-top: 30px;
+}
+
+/*flex-content*/
+.flex {
+    display: flex;
+}
+
+.parrafo-flex {
+    margin-bottom: 60px;
+}
+
+/**/
+.botonInicio {
+    text-decoration: none;
+    background-color: #302f34;
+    color: whitesmoke;
+}
+
+/******************** QUIENES SOMOS *********************/
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.parrafos-qSomos {
+    margin: 60px auto;
+}
+
+.tabla-qSomos .tabla {
+    margin: auto;
+    text-align: center;
+}
+
+th,
+td {
+    background-color: #474747;
+    padding: 10px 20px;
+    color: rgb(230, 230, 230);
+}
+
+/************************* Servicios **************************/
+.lista-servicios {
+    margin: auto;
+    width: 22%;
+    padding-left: 65px;
+}
+
+/************************* Contacto **************************/
+.div-contacto {
+    width: 55%;
+    margin: auto;
+}
+
+.botones-formulario {
+    background-color: rgb(223, 223, 223);
+    padding: 5px 10px;
+    border: 1px solid #a1a1a1;
+}
