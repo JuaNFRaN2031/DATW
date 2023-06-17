@@ -53,4 +53,5 @@ function adivinaNombre() {
         nombre = prompt("Adivina el nombre: ");
     } while (nombre != "Maria");
     alert("Has acertado el nombre. El nombre era: " + nombre);
+    console.log("Has acertado el nombre. El nombre era: " + nombre);
 }
