@@ -46,3 +46,11 @@ function numeroPar() {
     console.log(numero);
     console.log("¿Tu número ya es par?: " + numeroEsPar);
 }
+
+function adivinaNombre() {
+    let nombre = "Maria";
+    do {
+        nombre = prompt("Adivina el nombre: ");
+    } while (nombre != "Maria");
+    alert("Has acertado el nombre. El nombre era: " + nombre);
+}
