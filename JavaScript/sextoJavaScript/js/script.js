@@ -1,27 +1,31 @@
-let num = 0;
-while (num <= 15) {
-    console.log(num);
-    num++;
-}
-
-let interruptor = false;
-while (!interruptor) {
-    let nombre1 = "María", nombre2 = "Juan Fran";
-    if (nombre1 != nombre2) {
-        interruptor = true;
-        console.log(interruptor);
+function numeros() {
+    let num = 0;
+    while (num <= 15) {
+        console.log(num);
+        num++;
     }
-    let prueba = console.log(nombre1);
-    prueba
 }
 
-const cars = ["BMW", "Volvo", "Ford", "Volkswagen", "Maserati", "Lamborghini", "Ferrari"];
-let i = 0;
-let text = "";
-while (cars[i]) {
-    text += cars[i] + " ";
-    console.log(text);
-    i++;
+function comprobarNombres() {
+    let interruptor = false;
+    while (!interruptor) {
+        let nombre1 = "María", nombre2 = "Juan Fran";
+        if (nombre1 != nombre2) {
+            interruptor = true;
+            console.log(interruptor);
+        }
+    }
+}
+
+function coches() {
+    const cars = ["BMW", "Volvo", "Ford", "Volkswagen", "Maserati", "Lamborghini", "Ferrari"];
+    let i = 0;
+    let text = "";
+    while (cars[i]) {
+        text += cars[i] + " ";
+        console.log(text);
+        i++;
+    }
 }
 
 function escribeNombre() {
@@ -35,7 +39,7 @@ function escribeNombre() {
 function numeroPar() {
     let numero;
     let numeroEsPar = false;
-    while (numero % 2 != 0 || !numeroEsPar) {
+    while (numero % 2 != 0 || !numeroEsPar || numero == null) {
         numero = prompt("Escriba un número sino es par no saldrá del bucle: ");
         numeroEsPar = true;
     }
