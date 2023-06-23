@@ -70,7 +70,7 @@ console.log(ultimo);
 console.log(miArray);
 
 // Función push(), añade un elemento al final del array. El array original se modifica y aumenta su longitud en 1 elemento (También es posible añadir más de un elemento a la vez)
-miArray.push(9,10);
+miArray.push(9, 10);
 console.log(miArray);
 
 // Función shift(), elimina el primer elemento del array. El array original se ve modificado y su longitud disminuida en 1 elemento
@@ -86,3 +86,27 @@ console.log(miArray);
 // Función reverse() modifica un array colocando sus elemnetos en el orden inverso
 miArray.reverse();
 console.log(miArray);
+
+let numero1 = 0, numero2 = 0;
+let operacion = numero1 / numero2;
+console.log(operacion);
+if (isNaN(operacion)) {
+    console.log("Resultado indefinido");
+} else {
+    console.log("El resultado es -> " + operacion);
+}
+
+let numero3 = 10, numero4 = 0;
+console.log(numero3 / numero4);
+
+let decimales = 35698.65352658974213;
+console.log(decimales.toFixed(2));
+console.log(decimales.toFixed(3));
+console.log(decimales.toFixed(4));
+console.log(decimales.toFixed());
+
+// EJERCICIO: lee un número decimal y devuelvelo convertido el . en ,
+function cambiarTipoDecimal() {
+    let numeroRecogido = document.getElementById("numeroDecimal").value;
+    
+}

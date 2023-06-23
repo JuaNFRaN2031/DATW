@@ -14,7 +14,11 @@
 
 <body>
     <h1>Séptimo HTML con JavaScript</h1>
-
+    <label for="numeroDecimal">Escribe un número decimal: </label>
+    <input type="number" name="numeroDecimal" id="numeroDecimal" step="0.1">
+    <br>
+    <button type="submit" onclick="cambiarTipoDecimal()">Enviar</button>
+    <p>El número devuelto es -> <span id="numeroDecimalDevuelto"></span></p>
     <script src="js/script.js"></script>
 </body>
 
