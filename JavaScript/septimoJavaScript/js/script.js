@@ -108,5 +108,10 @@ console.log(decimales.toFixed());
 // EJERCICIO: lee un número decimal y devuelvelo convertido el . en ,
 function cambiarTipoDecimal() {
     let numeroRecogido = document.getElementById("numeroDecimal").value;
-    
+    console.log(numeroRecogido);
+    let elementos = numeroRecogido.split(".");
+    console.log(elementos);
+    let cadenaNumero = elementos[0] + "," + elementos[1];
+    console.log(cadenaNumero);
+    document.getElementById("numeroDecimalDevuelto").innerHTML = cadenaNumero;
 }
