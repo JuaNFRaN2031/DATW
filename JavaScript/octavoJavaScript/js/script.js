@@ -64,6 +64,7 @@ function ShowSelected() {
             document.getElementById("resultado").innerHTML = "El precio de la mermelada es: " + (mermelada * iva).toFixed(2) + "€";
             break;
         default:
+            document.getElementById("resultado").innerHTML = "Seleccione una opción";
             break;
     }
 }
