@@ -4,7 +4,7 @@
 }
 
 body {
-    width: 33%;
+    width: 66%;
     margin: auto;
 }
 
@@ -18,17 +18,27 @@ h1 {
     color: #0F2F62;
     text-align: center;
     font-size: xx-large;
+    margin: auto;
+}
+
+label {
+    font-size: 20px;
+}
+
+label,
+h3 {
+    color: #0F2F62;
 }
 
 .logo,
 img {
     padding-top: 10px;
     max-width: 30%;
+    margin: auto;
 }
 
 .boton,
-button,
-input {
+button {
     background-color: white;
     color: black;
     padding: 15px;
@@ -38,13 +48,24 @@ input {
     cursor: pointer;
 }
 
+input {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin: 5px;
+    border: 2px dashed rgb(225, 0, 255);
+    box-shadow: 5px 5px 10px rgb(208, 106, 255);
+}
+
 .boton:hover {
     color: #ffffff;
     border: 2px dashed rgb(94, 255, 0);
     background-color: rgb(127, 146, 255);
 }
 
-form {
+.formulario {
     clear: both;
     text-align: center;
+    border: 2px solid rgb(225, 0, 255);
+    padding: 20px;
 }

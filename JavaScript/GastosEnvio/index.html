@@ -21,12 +21,14 @@
             <h1>Tu paquetería de confianza</h1>
         </div>
     </header>
-    
-    <form>
-        <label for="peso">Indica el peso del artículo: </label>
-        <input type="number" step="0.1" id="peso" required>
+
+    <div class="formulario">
+        <label for="peso"><b>Indica el peso del artículo: </b></label>
+        <input type="number" step="0.01" id="peso" required>
         <button type="submit" onclick="calcular()" class="boton">¿Cuánto cuesta?</button>
-    </form>
+    </div>
+    <h3 id="resultado"></h3>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
