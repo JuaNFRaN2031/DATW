@@ -45,3 +45,5 @@ console.log("El precio de la leche es: " + precioTotal(leche).toFixed(2)+ "€")
 console.log("El precio del agua es: " + precioTotal(agua).toFixed(2)+ "€");
 console.log("El precio de los cereales es: " + precioTotal(cereales).toFixed(2)+ "€");
 console.log("El precio de la mermelada es: " + precioTotal(mermelada).toFixed(2)+ "€");
+
+console.log(document.getElementById("opcion").value("leche1") = 0.76);
