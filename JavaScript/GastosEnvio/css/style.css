@@ -1,0 +1,50 @@
+* {
+    font-family: 'Caveat', cursive;
+    background-color: aliceblue;
+}
+
+body {
+    width: 33%;
+    margin: auto;
+}
+
+.flex,
+header {
+    display: flex;
+}
+
+.titulo,
+h1 {
+    color: #0F2F62;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.logo,
+img {
+    padding-top: 10px;
+    max-width: 30%;
+}
+
+.boton,
+button,
+input {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin: 5px;
+    border: 2px dashed rgb(225, 0, 255);
+    box-shadow: 5px 5px 10px rgb(208, 106, 255);
+    cursor: pointer;
+}
+
+.boton:hover {
+    color: #ffffff;
+    border: 2px dashed rgb(94, 255, 0);
+    background-color: rgb(127, 146, 255);
+}
+
+form {
+    clear: both;
+    text-align: center;
+}
