@@ -17,5 +17,20 @@ window.addEventListener('load', function () {
     primerParrafo = elementsParrafos[2];
     primerParrafo.addEventListener('click', function () {
         primerParrafo.style.color = "violet";
-    })
-})
+    });
+    let cuartoParrafo = elementsParrafos[3];
+    cuartoParrafo.addEventListener('click', () => {
+        let colorRed = random(255);
+        let colorGreen = random(255);
+        let colorBlue = random(255);
+        let colores = 'rgba(' + colorRed + ',' + colorGreen + ',' + colorBlue + ')';
+        console.log(colores);
+        this.document.body.style.backgroundColor = colores;
+    });
+});
+
+function random(numero) {
+    let result = Math.floor(Math.random() * (numero + 1));
+    console.log(result);
+    return result;
+}
