@@ -74,6 +74,23 @@ window.addEventListener('load', function () {
         parrafos.forEach(cambiarTipoLetraParrafos);
     });
 
+    let div5 = elementsDiv[5];
+    div5.addEventListener("mouseover", () => {
+        div5.style.opacity = "0.5";
+    });
+
+    div5.addEventListener("mouseout", () => {
+        div5.style.opacity = "1";
+    });
+
+    let imagen = Array.from(this.document.getElementsByClassName('imagen2'));
+    let imgFinal = imagen[0];
+    imgFinal.addEventListener("mouseover", () => {
+        imgFinal.style.opacity = "1";
+    });
+    imgFinal.addEventListener("mouseout", () => {
+        imgFinal.style.opacity = "0.5";
+    });
 });
 
 function cambiarColor(item, index) {
