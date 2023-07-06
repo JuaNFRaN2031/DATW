@@ -27,6 +27,28 @@ window.addEventListener('load', function () {
         console.log(colores);
         this.document.body.style.backgroundColor = colores;
     });
+    let encabezadoPrincipal = Array.from(this.document.getElementsByClassName('tituloPrincipal'));
+    console.log(encabezadoPrincipal);
+    encabezadoPrincipal = encabezadoPrincipal[0];
+    encabezadoPrincipal.addEventListener('click', () => {
+        let colorRed = random(255);
+        let colorGreen = random(255);
+        let colorBlue = random(255);
+        let colores = 'rgba(' + colorRed + ',' + colorGreen + ',' + colorBlue + ')';
+        console.log(colores);
+        encabezadoPrincipal.style.color = colores;
+    });
+    let encabezados = Array.from(this.document.getElementsByClassName('titulo'));
+    console.log(encabezados);
+    encabezados = encabezados[0];
+    encabezados.addEventListener('click', () => {
+        let colorRed = random(255);
+        let colorGreen = random(255);
+        let colorBlue = random(255);
+        let colores = 'rgba(' + colorRed + ',' + colorGreen + ',' + colorBlue + ')';
+        console.log(colores);
+        encabezados.style.color = colores;
+    });
 });
 
 function random(numero) {
@@ -34,3 +56,4 @@ function random(numero) {
     console.log(result);
     return result;
 }
+
