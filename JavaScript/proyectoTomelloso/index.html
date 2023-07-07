@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Décimo JavaScript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.svg.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="header" id="container">
+        <h1 id="moving-heading">Tomelloso</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-3 col-s-3 menu">
+            <ul>
+                <li><a href="#elPueblo" class="link-menu">El pueblo</a></li>
+                <li><a href="#plazaEspana" class="link-menu">La plaza</a></li>
+                <li><a href="#plazaToros" class="link-menu">Plaza toros</a></li>
+                <li><a href="#bombo" class="link-menu">El bombo</a></li>
+            </ul>
+        </div>
+
+        <div class="col-6 col-s-9" id="elPueblo">
+            <h1>El pueblo</h1>
+            <p>Tomelloso es una ciudad y municipio español situado en el noreste de la provincia de Ciudad Real, en la
+                comunidad autónoma de Castilla-La Mancha. Se ubica en el centro geográfico de la región natural de La
+                Mancha y se trata del municipio con mayor población de la comarca y el octavo de Castilla-La Mancha.</p>
+        </div>
+
+        <div class="col-3 col-s-12">
+            <div class="aside">
+                <h2>¿Cuántos habitantes hay?</h2>
+                <p>Actualmente 36.024, de los que 17.951 son hombres y 18.073 son mujeres.</p>
+                <h2>¿Porqué es tan conocido?</h2>
+                <p>Tomelloso es un importante centro de producción vitivinícola, aunque en el sector agrícola también
+                    destacan la vid y los cultivos de regadío. Por otra parte, la ciudad también ha desarrollado su
+                    vertiente industrial, en gran parte basada en el vino.</p>
+                <h2>¿Cuántos años tiene el pueblo de Tomelloso?</h2>
+                <p>Tomelloso se comenzó a poblar en 1530 en tierras baldías de la villa de Socuéllamos, en torno a un
+                    viejo pozo utilizado por los pastores de la zona para abrevar a sus ganados (el pozo Tomilloso), y
+                    al lado de los restos de un antiguo villar.</p>
+            </div>
+        </div>
+    </div>
+    <section class="fotos">
+        <img src="img/plaza-espana.jpg" alt="Plaza España de Tomelloso" id="plazaEspana">
+        <img src="img/plaza-toros-tomelloso.avif" alt="Plaza de Toros de Tomelloso" id="plazaToros">
+        <img src="img/bombo.jpg" alt="Bombo de Tomelloso" id="bombo">
+    </section>
+
+    <div class="footer">
+        <p>Para más información ve a la página <a href="https://entomelloso.com/" target="_blank"
+                class="link-a">entomelloso</a></p>
+    </div>
+    <button onclick="irAlInicio()" id="boton">Ir al inicio</button>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
