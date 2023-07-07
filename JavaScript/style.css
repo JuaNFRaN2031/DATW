@@ -13,7 +13,7 @@ body {
 
 /*HEADER*/
 .menu {
-    display: flex;
+    display: inline-block;
     background-color: #302f34;
     text-align: center;
     justify-content: center;
