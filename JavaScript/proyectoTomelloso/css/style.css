@@ -93,7 +93,7 @@ body {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    animation: moveHeading 5s linear infinite;
+    animation: moveHeading 5s linear alternate infinite;
 }
 
 img {
