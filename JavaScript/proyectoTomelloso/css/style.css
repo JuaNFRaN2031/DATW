@@ -99,6 +99,7 @@ body {
 img {
     width: 66%;
     margin: 10px;
+    border-radius: 25px;
 }
 
 @keyframes moveHeading {
