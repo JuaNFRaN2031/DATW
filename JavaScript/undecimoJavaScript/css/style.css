@@ -2,36 +2,3 @@
     font-family: 'Caveat', cursive;
     background-color: aliceblue;
 }
-
-.container {
-    width: 70%;
-    margin: auto;
-}
-
-.card {
-    width: 500px;
-    height: auto;
-    border: 1px solid #000000;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin: 10px auto;
-}
-
-.card p {
-    padding: 0 50px;
-}
-
-
-/********************************************************************************/
-/******************** CSS MEDIA QUERIES -> RESPONSIVE DESIGN ********************/
-@media (width <= 800px) {
-    .container {
-        width: 100%;
-    }
-    .card {
-        width: 90%;
-    }
-}
