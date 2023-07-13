@@ -2,3 +2,21 @@
     font-family: 'Caveat', cursive;
     background-color: aliceblue;
 }
+
+
+input {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin: 5px;
+    border: 2px dashed blueviolet;
+    box-shadow: 5px 5px 10px rgb(134, 32, 182);
+}
+
+.btn {
+    background-color: blueviolet;
+    padding: 2%;
+    color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 4px 4px 2px rgb(59, 59, 59);
+}
