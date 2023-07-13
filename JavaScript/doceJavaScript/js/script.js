@@ -7,5 +7,5 @@ window.addEventListener('load', function () {
     this.document.querySelector("#hora").innerHTML = horaActual.getHours() + ":" + horaActual.getMinutes() + ":" + horaActual.getSeconds();
 
     var fechaNacimiento = new Date(2002, 10, 8);
-    this.document.querySelector("#fechaNacimiento").innerHTML = fechaNacimiento;
+    this.document.querySelector("#fechaNacimiento").innerHTML = fechaNacimiento.getDate() + "/" + (fechaNacimiento.getMonth() + 1) + "/" + fechaNacimiento.getFullYear();
 });
