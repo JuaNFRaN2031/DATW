@@ -24,10 +24,10 @@ window.addEventListener('load', function () {
     let boton = this.document.querySelector("#boton");
     boton.addEventListener("click", function () {
         //  let fechaInp = document.querySelector("#fechaInp").value;
-        let fechaInp = new Date(document.querySelector("#fechaInp").value);
         //  console.log(fechaInp);
         //  console.log(typeof(fechaInp));
         //  let fechaForm = new Date(fechaInp);
+        let fechaInp = new Date(document.querySelector("#fechaInp").value);
         console.log(fechaInp.toLocaleDateString());
     });
 });
