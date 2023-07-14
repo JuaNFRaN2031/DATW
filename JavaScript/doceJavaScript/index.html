@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <script src="js/script.js"></script>
+    <script src="js/scriptFormulario.js"></script>
 </head>
 
 <body>
@@ -46,7 +47,7 @@
             <label for="cantidadJoven">Entradas niños (14 - 18): </label>
             <input type="number" id="cantidadJoven" name="cantidadJoven" min="0" max="50">
         </p>
-        <label for="formaPago">Forma de pago: </label>
+        <label for="fPago">Forma de pago: </label>
         <p class="listaPago">
             <input type="radio" name="formaPago" value="visa"> Visa
             <input type="radio" name="formaPago" value="MasterCard"> MasterCard
@@ -57,8 +58,10 @@
         <div id="formTarjetaCredito">
             <label for="nombreTitular">Nombre Titular: </label>
             <input type="text" id="titular" name="titular" required>
+            <br>
             <label for="numeroTarjeta">Nº Tarjeta: </label>
             <input type="text" id="numeroTarjeta" name="numeroTarjeta" maxlength="16" minlength="16" required>
+            <br>
             <label for="cvv">CVV: </label>
             <input type="text" id="cvv" name="cvv" maxlength="3" minlength="3" required>
         </div>
@@ -66,13 +69,14 @@
         <div id="formPayPal">
             <label for="emailPayPal">Email del PayPal: </label>
             <input type="email" name="emailPayPal" id="emailPayPal" required>
+            <br>
             <label for="passwordPayPal">Contraseña: </label>
             <input type="password" name="passwordPayPal" id="passwordPayPal" required>
         </div>
         <br>
         <div id="formBizum">
             <label for="numeroBizum">Número Bizum: </label>
-            <input type="email" name="numeroBizum" id="numeroBizum" maxlength="9" required>
+            <input type="tel" name="numeroBizum" id="numeroBizum" minlength="9" maxlength="9" required>
         </div>
         <p><button type="submit" class="btn">Enviar</button></p>
     </form>
