@@ -21,4 +21,7 @@ window.addEventListener('load', function () {
         divFormPayPal.style.display = "none";
         divFormBizum.style.display = "block";
     });
+
+    let hoy = new Date();
+    console.log(hoy);
 });
