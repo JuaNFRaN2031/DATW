@@ -30,4 +30,6 @@ window.addEventListener('load', function () {
         //  let fechaForm = new Date(fechaInp);
         console.log(fechaInp.toLocaleDateString());
     });
+
+    let formTarjetaCredito = this.document.querySelector('input')
 });

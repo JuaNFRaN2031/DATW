@@ -26,3 +26,51 @@ input {
 #formBizum {
     display: none;
 }
+
+h3 {
+    text-align: center;
+}
+
+@media screen and (min-width:767px) {
+
+    #formulario {
+        width: 40%;
+        margin: auto;
+    }
+
+    form {
+        border: 1px solid blueviolet;
+        padding: 5px 90px;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:768px) {
+
+    #formulario {
+        width: 75%;
+        margin: auto;
+    }
+
+    form {
+        border: 1px solid blueviolet;
+        padding: 5px 30px;
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    #formulario {
+        width: 100%;
+        margin: auto;
+    }
+
+    form {
+        border: 1px solid blueviolet;
+        padding: 5px;
+    }
+    .listaPago {
+        display: flex;
+        justify-content: center;
+        text-align: left;
+    }
+}
