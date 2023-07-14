@@ -1,10 +1,123 @@
 * {
-    font-family: 'Caveat', cursive;
+    font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
 
+.logo,
+img {
+    width: 35%;
+}
 
+.imagen img {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.imagen h1 {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.imagen {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    top: 0;
+}
+
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.header {
+    background: rgb(55, 157, 19);
+    background: linear-gradient(180deg, rgba(55, 157, 19, 1) 0%, rgba(114, 218, 76, 1) 64%, rgba(208, 235, 198, 1) 100%);
+    display: flex;
+    align-items: center;
+}
+
+.menu ul,
+.headerSup ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+.menu li {
+    color: rgb(1, 40, 1);
+    border-left: 2px solid white;
+    display: inline-block;
+    font-size: 20px;
+    padding: 1% 2%;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.headerSup {
+    background: rgb(170, 123, 36);
+    background: linear-gradient(180deg, rgba(170, 123, 36, 1) 0%, rgba(170, 123, 36, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.headerSup li {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.774);
+    font-size: 0.8em;
+}
+
+/* BOTON */
+/* CSS */
+.button-66 {
+    background-color: #54BB2F;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: rgba(1, 60, 136, .5) 0 -1px 3px 0 inset, rgba(0, 44, 97, .1) 0 3px 6px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inherit;
+    font-family: "Space Grotesk", -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    min-height: 56px;
+    min-width: 120px;
+    padding: 16px 20px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    transition: all .2s cubic-bezier(.22, .61, .36, 1);
+}
+
+.button-66:hover {
+    background-color: #158000;
+    transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+    .button-66 {
+        padding: 16px 44px;
+        min-width: 150px;
+    }
+}
+
+/**********************************************************/
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
