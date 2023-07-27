@@ -119,8 +119,8 @@ img {
 
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    border: 1px solid #bb7e0e;
+    background-color: #bb7e0e;
 }
 
 /* Style the buttons inside the tab */
@@ -133,6 +133,7 @@ img {
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
+    color: white;
 }
 
 /* Change background color of buttons on hover */
@@ -151,7 +152,7 @@ img {
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #bb7e0e;
     border-top: none;
 }
 
