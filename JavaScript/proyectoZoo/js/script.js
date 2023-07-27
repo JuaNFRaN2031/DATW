@@ -8,6 +8,6 @@ function openCity(evt, tipoEntrada) {
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-    document.getElementById(tipoEntrada).style.display = "flex";
+    document.getElementById(tipoEntrada).style.display = "block";
     evt.currentTarget.className += " active";
 }

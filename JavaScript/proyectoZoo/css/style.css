@@ -137,26 +137,31 @@ img {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #ddd;
+    background-color: #54BB2F;
+    color: white;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-    background-color: #ccc;
+    background-color: #158000;
+    color: white;
 }
 
 /* Style the tab content */
 .tabcontent {
-    display: flex;
+    display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
 }
 
-.floatRight button {
-    display: flow-root;
-    float: right;
-}
+
+
+
+
+
+
+
 
 
 
