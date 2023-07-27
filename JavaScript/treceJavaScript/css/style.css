@@ -18,6 +18,7 @@ input {
     color: whitesmoke;
     border-radius: 20px;
     box-shadow: 4px 4px 2px rgb(59, 59, 59);
+    text-decoration: none;
 }
 
 #formTarjetaCredito,
