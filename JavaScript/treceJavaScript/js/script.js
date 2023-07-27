@@ -17,6 +17,10 @@ window.addEventListener('load', function (e) {
         } else if (password.length < 8 || password.length > 12) {
             msn = msn + "<br>La contraseña tiene que tener entre 8 y 12 dígitos";
         }
+        else {
+            msn = msn + "<br>Bienvenido";
+            window.location.href = "calcularIMC.html";
+        }
         mensaje.innerHTML = msn;
         let inputs = document.querySelectorAll(".entrada");
         inputs.forEach(items => {
