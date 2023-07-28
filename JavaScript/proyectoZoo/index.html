@@ -38,12 +38,12 @@
                 <ul>
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Conócenos</a></li>
-                    <li><a href="#">Contacta con nosotros</a></li>
+                    <li><a href="contacto.html">Contacta con nosotros</a></li>
                 </ul>
             </div>
         </header>
         <div class="col-12 imagen">
-            <img src="img/jimmi-el-mono.webp" alt="Mono comiendo cebolleta">
+            <img src="img/jimmi-el-mono.webp" name="banner" id="banner">
             <div class="centrado col-4">
                 <h2>Ven y disfruta de un día de Naturaleza en en compañía</h2>
                 <br>
@@ -54,29 +54,34 @@
                     frescura a nuestros caminos e instalaciones.
                     Cerca de 2.000 animales de más de 300 especies y 1.300 plantas de cerca de 320 especies botánicas.
                 </p>
+                <div>
+                    <div class="tab">
+                        <button class="tablinks" onclick="entradas(event, 'entradaGeneral')">Entrada General</button>
+                        <button class="tablinks" onclick="entradas(event, 'entradaMasHotel')">Entrada + Hotel</button>
+                        <button class="tablinks" onclick="entradas(event, 'bonoParque')">Bono Parque</button>
+                    </div>
 
-                <div class="tab">
-                    <button class="tablinks" onclick="entradas(event, 'entradaGeneral')">Entrada General</button>
-                    <button class="tablinks" onclick="entradas(event, 'entradaMasHotel')">Entrada + Hotel</button>
-                    <button class="tablinks" onclick="entradas(event, 'bonoParque')">Bono Parque</button>
-                </div>
+                    <div id="entradaGeneral" class="tabcontent">
+                        <h3>Entrada General</h3>
+                        <label for="visitantes">Visitantes: </label>
+                        <input type="text" name="visitantes" id="visitantes">
+                        <label for="visita">Fecha visita: </label>
+                        <input type="date" name="visita" id="visita">
+                        <br><br>
+                        <button class="button-66" role="button">Comprar Entradas</button>
+                    </div>
 
-                <div id="entradaGeneral" class="tabcontent">
-                    <h3>Entrada General</h3>
-                    
-                    <button class="button-66" role="button">Comprar Entradas</button>
-                </div>
+                    <div id="entradaMasHotel" class="tabcontent">
+                        <h3>Entrada + Hotel</h3>
 
-                <div id="entradaMasHotel" class="tabcontent">
-                    <h3>Entrada + Hotel</h3>
+                        <button class="button-66" role="button">Comprar Entrada + Hotel</button>
+                    </div>
 
-                    <button class="button-66" role="button">Comprar Entrada + Hotel</button>
-                </div>
+                    <div id="bonoParque" class="tabcontent">
+                        <h3>Bono Parques</h3>
 
-                <div id="bonoParque" class="tabcontent">
-                    <h3>Bono Parques</h3>
-
-                    <button class="button-66" role="button">Comprar Bonos</button>
+                        <button class="button-66" role="button">Comprar Bonos</button>
+                    </div>
                 </div>
 
             </div>
