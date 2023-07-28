@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informe de Vacunas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <section class="contenedor">
+        <h1>Informes de Vacunas</h1>
+        <br>
+        <div class="textoConsumo">
+            <br>
+            <select name="opcion" id="opcion">
+                <option>--- Seleccione la edad del niño ---</option>
+                <option value="prenatal">Prenatal</option>
+                <option value="2meses">2 Meses</option>
+                <option value="4meses">4 Meses</option>
+                <option value="11meses">11 Meses</option>
+                <option value="12meses">12 Meses</option>
+                <option value="15meses">15 Meses</option>
+                <option value="4anos">4 Años</option>
+                <option value="6anos">6 Años</option>
+                <option value="12anos">12 Años</option>
+                <option value="14anos">14 Años</option>
+            </select>
+            <button type="submit" onclick="ShowSelected()">Ver Vacunas</button>
+            <p id="resultado"></p>
+        </div>
+        <script src="js/script.js"></script>
+    </section>
+</body>
+
+</html>
