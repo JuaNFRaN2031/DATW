@@ -41,6 +41,14 @@ window.addEventListener('load', () => {
         let email = document.querySelector('#email');
         let postal = document.querySelector('#postal');
         validarFormaContacto(telefono, email, postal);
+        let inputs = document.querySelectorAll('.entrada');
+        inputs.forEach(items => {
+            items.addEventListener('focus', () => {
+                items.style.background = "none";
+                items.style.border = "none";
+                items.style.borderBottom = "1px solid #ffa600";
+            })
+        })
     });
 
 });
@@ -51,10 +59,6 @@ function validarNombre(nombre) {
         nombre.style.borderColor = "red";
         nombre.style.background = "rgb(243, 77, 77)";
         nombre.setAttribute("placeholder", "Escribe bien tu nombre ...");
-    } else {
-        nombre.style.background = "none";
-        nombre.style.border = "none";
-        nombre.style.borderBottom = "1px solid #ffa600";
     }
 }
 function validarApellidos(apellidos) {
@@ -63,10 +67,6 @@ function validarApellidos(apellidos) {
         apellidos.style.borderColor = "red";
         apellidos.style.background = "rgb(243, 77, 77)";
         apellidos.setAttribute("placeholder", "Escribe bien tu apellidos ...");
-    } else {
-        apellidos.style.background = "none";
-        apellidos.style.border = "none";
-        apellidos.style.borderBottom = "1px solid #ffa600";
     }
 }
 function validarFormaContacto() {

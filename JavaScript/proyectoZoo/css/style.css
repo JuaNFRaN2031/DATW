@@ -120,6 +120,7 @@ img {
 .tab {
     overflow: hidden;
     border: 1px solid #AA7B24;
+    border-radius: 10px 10px 0 0;
     background-color: #AA7B24;
 }
 
@@ -153,12 +154,16 @@ img {
     display: none;
     padding: 6px 12px;
     border: 1px solid #AA7B24;
+    border-radius: 0 0 10px 10px;
     border-top: none;
+    background-color: #AA7B24;
 }
+
 
 
 /**********************************************************/
 /* Style inputs, select elements and textareas */
+input,
 select,
 textarea {
 
@@ -250,7 +255,7 @@ label {
 }
 
 /* Clear floats after the columns */
-.row:after {
+.row2:after {
 
     content: "";
     display: table;
