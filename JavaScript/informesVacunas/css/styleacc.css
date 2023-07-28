@@ -1,0 +1,31 @@
+* {
+
+    font-family: 'Caveat', cursive;
+    background-color: aliceblue;
+    font-size: 80px;
+
+}
+
+body {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botones,
+button,
+select {
+
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin: 5px;
+    border: 2px dashed rgb(225, 0, 255);
+    box-shadow: 5px 5px 10px rgb(208, 106, 255);
+    cursor: pointer;
+
+}
