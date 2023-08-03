@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USHIP</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <img src="img/logo.png" alt="Logo USHIP" class="topnav-img">
+            <a href="index.html">Inicio</a>
+            <a href="envioNacional.html">Envio Nacional</a>
+            <a href="envioInternacional.html">Envio Internacional</a>
+            <a href="contacto.html" class="active">Contacto</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </header>
+    <img src="img/uship-contacto.png" alt="" class="img-contacto">
+    <h1 class="title-red-center">¿HABLAMOS?</h1>
+    <div class="container2">
+        <form action="" method="get">
+            <div class="row2">
+                <div class="col-75">
+                    <label for="fname">Nombre y Apellidos*:</label>
+                    <br><br>
+                    <input type="text" id="fname" name="fname" placeholder="Ej: Manuel" class="formulario">
+                    <br><br>
+                </div>
+            </div>
+            <div class="col-75">
+                <div>
+                    <label for="correo">Correo Electrónico*:</label>
+                    <br><br>
+                    <input type="email" name="correo" id="correo" placeholder="Tu correo email ..." class="formulario">
+                    <br><br>
+                </div>
+                <div class="col-75">
+                    <label for="tel">Teléfono*:</label>
+                    <br><br>
+                    <input type="tel" name="tel" id="tel" placeholder="Ej: 966999999" class="formulario">
+                    <br><br>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="col-25">
+                    <label for="mensaje">Indica tu consulta:</label>
+                    <br><br>
+                </div>
+                <div class="col-75">
+                    <textarea id="mensaje" name="mensaje" placeholder="Escribe aquí tu consulta"
+                        style="height:100px"></textarea>
+                </div>
+            </div>
+            <br>
+            <input type="checkbox" name="politicas" id="politicas"><label for="politicas">Acepta la Política de
+                <span>Protección de Datos</span></label>
+            <br><br>
+            <div class="row2">
+                <button type="button" id="boton" class="button-66 boton">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

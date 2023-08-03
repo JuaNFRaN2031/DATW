@@ -7,11 +7,65 @@
     <title>USHIP</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <script src="js/script.js"></script>
 </head>
 
 <body>
-
+    <header>
+        <div class="topnav" id="myTopnav">
+            <img src="img/logo.png" alt="Logo USHIP" class="topnav-img">
+            <a href="index.html" class="active">Inicio</a>
+            <a href="envioNacional.html">Envio Nacional</a>
+            <a href="envioInternacional.html">Envio Internacional</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </header>
+    <div class="bg-img">
+        <div class="margin-space">
+            <div class="container">
+                <h2>¿CUÁNTO ME VA A COSTAR MI ENVIO?</h2>
+                <div class="row2">
+                    <div class="col-25">
+                        <label for="destino">Indique el destino de su envío</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="destino" name="destino" class="formulario">
+                            <option value="">Selecciona un destino</option>
+                            <option value="2">Tu misma Localidad</option>
+                            <option value="5">Tu misma Provincia</option>
+                            <option value="8">Tu Misma Comunidad Autónoma</option>
+                            <option value="16">Baleares-Canarias</option>
+                            <option value="18">Ceuta o Melilla</option>
+                            <option value="12">Resto de España</option>
+                            <option value="20">Europa</option>
+                            <option value="25">Resto del Mundo</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div class="row2">
+                    <div class="col-25">
+                        <label for="peso">Indique el peso aproximado</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="peso" name="peso" class="formulario">
+                            <option value="">Selecciona un peso</option>
+                            <option value="2.88">Hasta 05KG</option>
+                            <option value="4.75">Hasta 5KG</option>
+                            <option value="6.49">HASTA 10KG</option>
+                            <option value="9.39">HASTA 20KG </option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div class="row2">
+                    <button id="boton" onclick="calcPrecio()" class="button-66 boton">Calcular</button>
+                </div>
+                <p id="envioPrecio" class="mnsError"></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/scriptEnvio.js"></script>
 </body>
 
 </html>
